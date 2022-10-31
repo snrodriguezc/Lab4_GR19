@@ -1,33 +1,40 @@
 from pydantic import BaseModel
 
-class DataModel(BaseModel):
+#Representa el esquema de los datos de entrada para el entrenamiento
+class DataModelTrain(BaseModel):
+    serial_no: float | None = None
+    gre_score: float | None = None
+    toefl_score: float | None = None
+    university_rating: float | None = None
+    sop: float | None = None
+    lor: float | None = None
+    cgpa: float | None = None
+    research: float | None = None
+    admission_points: float | None = None
 
-# Estas varibles permiten que la librería pydantic haga el parseo entre el Json recibido y el modelo declarado.
-    serial_no: float
-    gre_score: float
-    toefl_score: float
-    university_rating: float
-    sop: float
-    lor: float 
-    cgpa: float
-    research: float
-    admission_points: float
-
-    def columns(self):
+    #Representa las columnas del dataframe para el entrenamiento
+    def columnsTrain(self):
         return ["Serial No.","GRE Score","TOEFL Score","University Rating","SOP","LOR" ,"CGPA","Research","Admission Points"]
 
+#Representa el esquema de los datos de entrada para las predicciones
 class DataModelPred(BaseModel):
-    serial_no: float
-    gre_score: float
-    toefl_score: float
+    serial_no: float | None = None
+    gre_score: float | None = None
+    toefl_score: float | None = None
     university_rating: float
-    sop: float
-    lor: float 
+    sop: float | None = None
+    lor: float | None = None
     cgpa: float
     research: float
 
+    #Representa las columnas del dataframe para las predicciones
     def columnsPred(self):
         return ["Serial No.","GRE Score","TOEFL Score","University Rating","SOP","LOR" ,"CGPA","Research"]
 
-class ListModel(BaseModel):
+#Clase para extraer la lista de registros dados para las predicciones
+class ListModelPred(BaseModel):
     registros: list[DataModelPred]
+
+#Clase para extraer la lista de registros dados para el entrenamiento
+class ListModelTrain(BaseModel):
+    registros: list[DataModelTrain]
