@@ -1,0 +1,75 @@
+{
+    "registros":
+        [
+            {
+                "serial_no": 479,
+                "gre_score": 327,
+                "toefl_score": 113,
+                "university_rating": 4,
+                "sop": 4.0,
+                "lor": 2.77,
+                "cgpa": 8.88,
+                "research": 1
+            },
+            {
+                "serial_no": 446,
+                "gre_score": 301,
+                "toefl_score": 92,
+                "university_rating": 1,
+                "sop": 1.85,
+                "lor": 1.5,
+                "cgpa": 7.71,
+                "research": 0
+            },
+            {
+                "serial_no": 336,
+                "gre_score": 297,
+                "toefl_score": 100,
+                "university_rating": 1,
+                "sop": 2.41,
+                "lor": 1.59,
+                "cgpa": 7.89,
+                "research": 0
+            },
+            {
+                "serial_no": 20,
+                "gre_score": 303,
+                "toefl_score": 98,
+                "university_rating": 3,
+                "sop": 3.5,
+                "lor": 3,
+                "cgpa": 8.5,
+                "research": 0
+            },
+            {
+                "serial_no": 432,
+                "gre_score": 320,
+                "toefl_score": 94,
+                "university_rating": 2,
+                "sop": 1.38,
+                "lor": 3.5,
+                "cgpa": 8.78,
+                "research": 1
+            },
+            {
+                "serial_no": 112,
+                "gre_score": 321,
+                "toefl_score": 84,
+                "university_rating": 4,
+                "sop": 4.13,
+                "lor": 4,
+                "cgpa": 8.68,
+                "research": 1
+            },
+            {
+                "serial_no": 55,
+                "gre_score": 306,
+                "toefl_score": 110,
+                "university_rating": 3,
+                "sop": 3,
+                "lor": 3.5,
+                "cgpa": 8,
+                "research": 0
+            }
+        ]
+}
