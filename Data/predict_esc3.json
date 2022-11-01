@@ -1,0 +1,25 @@
+{
+    "registros":
+        [
+            {
+                "serial_no": null,
+                "gre_score": null,
+                "toefl_score": null,
+                "university_rating": 4,
+                "sop": null,
+                "lor": null,
+                "cgpa": 8.88,
+                "research": 1
+            },
+            {
+                "serial_no": null,
+                "gre_score": null,
+                "toefl_score": null,
+                "university_rating": 1,
+                "sop": null,
+                "lor": null,
+                "cgpa": 7.71,
+                "research": 0
+            }
+        ]
+}
