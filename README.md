@@ -18,4 +18,4 @@
 * [Script](https://github.com/snrodriguezc/Lab4_GR19/blob/main/Pipeline.ipynb) de Jupyter Lab con la construcción del pipeline y la explicación de cada uno de los pasos que lo componen.
 * [Código fuente](https://github.com/snrodriguezc/Lab4_GR19/tree/main/LAB4%20-%20API) de la API con los endpoints descritos en el enunciado.
 * Archivo [README](https://github.com/snrodriguezc/Lab4_GR19/blob/main/README.md) con las instrucciones de despliegue de la API en un ambiente local y ejemplos de consumo de de cada uno de los endpoints.
-* [Documento PDF]() con los escenarios de prueba de la API y las estrategias a desarrollar
+* [Documento PDF](https://github.com/snrodriguezc/Lab4_GR19/blob/main/Informe_Lab4_GR19.pdf) con los escenarios de prueba de la API y las estrategias a desarrollar
